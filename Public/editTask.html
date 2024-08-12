@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="edit-container">
+        <form action="" class="edit-form">
+            <div class="input-parent">
+                <label for="n">Name</label>
+                <input type="text" name="name" id="n">
+            </div>
+
+            <div class="input-parent">
+                <label for="completed">Completed</label>
+                <input type="checkbox" name="completed" id="completed">
+            </div>
+            <button class="edit-page-btn">Submit</button>
+            <p>task updated successfully</p>
+        </form>
+
+        <a href="index.html" type="button" class="back-btn">Back Home</a>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.3/axios.min.js"
+        integrity="sha512-zJXKBryKlsiDaWcWQ9fuvy50SG03/Qc5SqfLXxHmk9XiUUbcD9lXYjHDBxLFOuZSU6ULXaJ69bd7blSMEgxXNQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="./edit.js"></script>
+</body>
+
+</html>
